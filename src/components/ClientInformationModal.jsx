@@ -161,10 +161,6 @@ function CustomerInfoTab({ customer, onSave }) {
           <h3 className="text-sm font-bold text-[#D01030] uppercase tracking-wide">
             Customer Services Status
           </h3>
-
-          <span className="px-2 py-1 text-xs font-semibold text-red-600 bg-red-100 rounded-full">
-            Editable
-          </span>
         </div>
 
         {/* Status Controls */}

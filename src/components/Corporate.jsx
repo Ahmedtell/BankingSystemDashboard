@@ -424,7 +424,7 @@ export default function Corporate() {
       <div className="space-y-3">
         <div className="flex flex-col gap-2 sm:flex-row">
           <button
-            onClick={() => setRegisterType("Individual")}
+            onClick={() => setRegisterType("Corporate")}
             className="px-4 py-2 text-white bg-[#D01030] rounded-lg"
           >
             Registration
@@ -488,7 +488,6 @@ export default function Corporate() {
       {results.length === 0 && advancedMode && (
         <p className="text-sm text-gray-400">No results found</p>
       )}
-
     </div>
   );
 }

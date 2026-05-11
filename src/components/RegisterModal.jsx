@@ -62,7 +62,6 @@ export function RegisterModal({ type, onClose, onRegister }) {
           { label: "Type", value: type },
           { label: "Customer ID", value: customerId },
           { label: "Customer Name", value: customerName },
-          { label: "Status", value: "Active", highlight: true },
         ]}
         onClose={handleSuccessClose}
         buttonText="Done"
@@ -113,9 +112,6 @@ export function RegisterModal({ type, onClose, onRegister }) {
             </p>
             <p>
               <b>Name:</b> {customer.name}
-            </p>
-            <p>
-              <b>Status:</b> {customer.status}
             </p>
           </div>
         )}
